@@ -1,8 +1,14 @@
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+
 function App() {
   return (
-    <main>
-      <h1>Mi portfolio</h1>
-    </main>
+    <>
+      <Header nombre="Gonzalo Lazarte" profesion="Estudiante de Programación · C# / .NET" />
+      <main>
+        <Hero nombre="Gonzalo" />
+      </main>
+    </>
   );
 }
 
