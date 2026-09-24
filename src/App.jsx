@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
+import Footer from "./components/Footer.jsx"
 
 const habilidades = ["C#", ".NET", "HTML", "CSS", "JavaScript", "React", "Git", "GitHub"];
 const proyectos = [
@@ -29,6 +30,7 @@ const proyectos = [
   },
 ];
 
+
 function App() {
   return (
     <>
@@ -38,6 +40,10 @@ function App() {
         <About />
         <Skills habilidades={habilidades} />
         <Projects proyectos={proyectos} />
+        <Footer 
+        nombre="Gonzalo Romeo Lazarte"
+        email="gonzaloromeolazarte@gmail.com"
+        github="https://github.com/Tutu-04"/>
       </main>
     </>
   );

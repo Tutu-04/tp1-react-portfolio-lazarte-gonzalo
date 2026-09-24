@@ -1,16 +1,44 @@
-# React + Vite
+# TP1 – Mi Portfolio en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Alumno:** Gonzalo Romeo Lazarte
+**Materia:** Programación 4 – UTN FRT
+**Comisión:** 7
 
-Currently, two official plugins are available:
+## Descripción
+Portfolio personal de una sola página hecho con React y Vite. Incluye Header, Hero, Sobre mí, Habilidades, Proyectos y Footer, divididos en componentes reutilizables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
+- React
+- Vite
+- JavaScript (JSX)
+- CSS
 
-## React Compiler
+## Conceptos de React aplicados
+- Componentes: Header, Hero, About, Skills, Projects, ProjectCard y Footer
+- Props para pasar datos de App a cada sección y de Projects a cada ProjectCard
+- Renderizado dinámico con map() y key
+- Eventos (onClick) y estado con useState
+- Renderizado condicional (botones "Ver más" y "Ver detalle")
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalación
+1. Clonar el repositorio:
+```bash
+   git clone https://github.com/Tutu-04/tp1-react-portfolio-lazarte-gonzalo.git
+```
+2. Entrar a la carpeta:
+```bash
+   cd tp1-react-portfolio-lazarte-gonzalo
+```
+3. Instalar las dependencias:
+```bash
+   npm install
+```
 
-## Expanding the ESLint configuration
+## Ejecución
+```bash
+npm run dev
+```
+Abrir en el navegador la dirección que muestra la terminal (por defecto http://localhost:5173).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Repositorio
+https://github.com/Tutu-04/tp1-react-portfolio-lazarte-gonzalo
